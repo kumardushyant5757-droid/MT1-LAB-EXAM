@@ -85,20 +85,3 @@ Example POST body:
 
 For POST and PUT, select **Body → raw → JSON**.
 
-## Git submission
-
-Create a repository named `MT1-LABEXAM`, then commit your work in modules. Example:
-
-```bash
-git init
-git add .
-git commit -m "Initial project setup"
-git add httpServer.js public/info.html
-git commit -m "Implement HTTP server and static info route"
-git add expressApp.js
-git commit -m "Implement Express vehicle CRUD API"
-git add README.md package.json
-git commit -m "Add project documentation and scripts"
-```
-
-The `screenshots/` folder is included for the required demonstration screenshots.
